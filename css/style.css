@@ -918,7 +918,7 @@ body {
     }
 
     #about {
-        padding: 15vh 0 0 0;
+        padding: 15vh 0 0 0 !important;
     }
 
     .aboutimage {
@@ -946,7 +946,7 @@ body {
     }
 
     #resume {
-        padding: 15vh 0 0 0;
+        padding: 15vh 0 0 0 !important;
     }
 
     .resume .title p .breck {
@@ -994,7 +994,7 @@ body {
     }
 
     #skills {
-        padding: 15vh 0 0 0;
+        padding: 15vh 0 0 0 !important;
     }
 
     .skills .title .heading {
@@ -1019,7 +1019,7 @@ body {
     }
 
     #project {
-        padding: 15vh 0 0 0;
+        padding: 15vh 0 0 0 !important;
     }
 
     .projects .title .heading {
@@ -1041,7 +1041,7 @@ body {
     }
 
     #contact {
-        padding: 15vh 0 0 0;
+        padding: 15vh 0 0 0 !important;
     }
 
     .contacts .title .heading {
@@ -1076,7 +1076,7 @@ body {
     /* slider start here  */
     .slider {
         width: 100% !important;
-        height: 70vh !important;
+        height: 40vh !important;
         margin-top: 10% !important;
     }
 
@@ -1086,7 +1086,7 @@ body {
 
     .slider-content {
         width: 100% !important;
-        height: 70vh !important;
+        height: 40vh !important;
     }
 
     .slider .slider-content .slider-1 {
@@ -1105,7 +1105,7 @@ body {
     }
 
     .slider-text {
-        top: 45%;
+        top: 48%;
         left: 12% !important;
     }
 
@@ -1127,7 +1127,7 @@ body {
     }
 
     #about {
-        padding: 10vh 0 0 0;
+        padding: 10vh 0 0 0 !important;
     }
 
     .aboutimage {
@@ -1189,6 +1189,7 @@ body {
 
     .services .title .heading {
         font-size: 30px;
+        margin-bottom: 4vh !important;
         text-align: center;
     }
 
@@ -1198,6 +1199,8 @@ body {
 
     .services .service {
         flex-direction: column;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
     }
 
     .services .service .design {
@@ -1212,7 +1215,7 @@ body {
     }
 
     #skills {
-        padding-top: 10vh;
+        padding-top: 10vh !important;
     }
 
     .skills .title {
@@ -1223,6 +1226,7 @@ body {
     .skills .title .heading {
         font-size: 30px;
         text-align: center;
+        margin-bottom: 4 !important;
     }
 
     .skills .title .subheading {
@@ -1231,6 +1235,8 @@ body {
 
     .skills .service {
         flex-direction: column;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
     }
 
     .skills .service .skill {
@@ -1254,6 +1260,7 @@ body {
 
     .projects .title .heading {
         font-size: 30px;
+        margin-bottom: 4vh !important;
         text-align: center;
     }
 
@@ -1295,6 +1302,7 @@ body {
 
     .contacts .title .heading {
         font-size: 30px;
+        margin-bottom: 4vh !important;
         text-align: center;
     }
 
@@ -1305,6 +1313,7 @@ body {
     .contacts .profile,
     .contacts .form {
         height: 400px !important;
+        margin-top: 2% !important;
     }
     .contacts .form form{
         width: 100% !important;
